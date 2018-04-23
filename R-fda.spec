@@ -4,7 +4,7 @@
 #
 Name     : R-fda
 Version  : 2.4.7
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/fda_2.4.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fda_2.4.7.tar.gz
 Summary  : Functional Data Analysis
