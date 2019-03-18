@@ -4,13 +4,12 @@
 #
 Name     : R-fda
 Version  : 2.4.8
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/fda_2.4.8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fda_2.4.8.tar.gz
 Summary  : Functional Data Analysis
 Group    : Development/Tools
 License  : GPL-2.0+
-Requires: R-deSolve
 BuildRequires : R-deSolve
 BuildRequires : buildreq-R
 
@@ -27,10 +26,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552758692
+export SOURCE_DATE_EPOCH=1552946281
 
 %install
-export SOURCE_DATE_EPOCH=1552758692
+export SOURCE_DATE_EPOCH=1552946281
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
