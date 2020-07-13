@@ -4,7 +4,7 @@
 #
 Name     : R-fda
 Version  : 5.1.5
-Release  : 29
+Release  : 30
 URL      : https://cran.r-project.org/src/contrib/fda_5.1.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fda_5.1.5.tar.gz
 Summary  : Functional Data Analysis
