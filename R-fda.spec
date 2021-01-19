@@ -4,13 +4,13 @@
 #
 Name     : R-fda
 Version  : 5.1.9
-Release  : 33
+Release  : 34
 URL      : https://cran.r-project.org/src/contrib/fda_5.1.9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fda_5.1.9.tar.gz
 Summary  : Functional Data Analysis
 Group    : Development/Tools
 License  : GPL-2.0+
-Requires: R-rainbow
+Requires: R-fds
 BuildRequires : R-fds
 BuildRequires : R-rainbow
 BuildRequires : buildreq-R
@@ -27,10 +27,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1610306335
+export SOURCE_DATE_EPOCH=1611041442
 
 %install
-export SOURCE_DATE_EPOCH=1610306335
+export SOURCE_DATE_EPOCH=1611041442
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
